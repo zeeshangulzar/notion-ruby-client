@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.summary = 'Notion API client for Ruby.'
   s.add_dependency 'activesupport'
   s.add_dependency 'dotenv'
-  s.add_dependency 'faraday', '>= 1.0'
+  s.add_dependency 'faraday', '>= 0.9'
   s.add_dependency 'faraday_middleware'
   s.add_dependency 'hashie'
   s.add_development_dependency 'rake', '~> 13'
